@@ -1,0 +1,5 @@
+torch>=2.6
+dynamic-network-architectures==0.4.4
+numpy>=1.26,<3
+scipy>=1.11,<2
+numba>=0.61,<1

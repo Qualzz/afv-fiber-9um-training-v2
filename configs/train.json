@@ -1,0 +1,22 @@
+{
+  "seed": 301018,
+  "steps": 1000,
+  "batch_size": 8,
+  "microbatch_size": 4,
+  "workers": 0,
+  "cache_windows": 4,
+  "cpu_threads": 4,
+  "backbone_lr": 0.000003,
+  "direction_lr": 0.00003,
+  "weight_decay": 0.0001,
+  "ema_decay": 0.999,
+  "gradient_clip": 1.0,
+  "direction_weight": 0.2,
+  "geometry_weight": 1.0,
+  "hard_weight": 2.0,
+  "occlusion_probability": 0.25,
+  "checkpoint_every": 50,
+  "validate_every": 250,
+  "validation_samples": 30,
+  "precision": "bf16"
+}

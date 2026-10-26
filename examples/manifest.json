@@ -1,0 +1,18 @@
+[
+  {
+    "id": "training-window",
+    "scroll": "scroll-01",
+    "split": "train",
+    "ct": "train/ct.npy",
+    "annotations": "train/annotations.npz",
+    "voxel_size_um": 9.0
+  },
+  {
+    "id": "validation-window",
+    "scroll": "scroll-01",
+    "split": "validation",
+    "ct": "validation/ct.npy",
+    "annotations": "validation/annotations.npz",
+    "voxel_size_um": 9.0
+  }
+]
